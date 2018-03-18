@@ -66,6 +66,10 @@ html,body {
 	font-family: system-ui;
 }
 
+td {
+	padding: .5rem 3rem;
+}
+
 /*Mobile Styles*/
 .mobile-header {
 	background: black;
@@ -123,7 +127,11 @@ html,body {
 
 /*Web Styles*/
 #web-landing-page {
-	background-image: url("./images/homeimage.png");
+	background-image: url("./images/web/web-homepage.png");
+}
+
+#web-swipe-page {
+	background-image: url("./images/web/web-swipepage.png");
 }
 
 .web-page {
@@ -131,6 +139,7 @@ html,body {
 	height: 100vh;
 	left: 0;
 	top: 0;
+	background-size: 100%;
 }
 
 .web-menu {
@@ -169,6 +178,18 @@ html,body {
 	display: flex;
 	justify-content: center;
 	margin-top: 8rem;
+	padding: 1rem 0;
+	font-size: 2.5rem;
+	font-style: italic;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+}
+
+.web-table-header {
+	position: static;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
 	padding: 1rem 0;
 	font-size: 2.5rem;
 	font-style: italic;
