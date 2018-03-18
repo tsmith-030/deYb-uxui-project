@@ -63,7 +63,7 @@ a:active {
 }
 
 html,body {
-	font-family: system-ui;
+	font-family: Avenir, Futura, sans-serif;
 }
 
 td {
@@ -208,7 +208,7 @@ td {
 }
 
 #web-swipe-description {
-	margin-top: 18rem;
+	margin-top: 17rem;
 }
 
 .web-text-content {
@@ -223,7 +223,7 @@ td {
 }
 
 #web-swipe-btn {
-	margin-top: 2rem;
+	margin-top: 0.75rem;
 }
 
 .img-overlay {
