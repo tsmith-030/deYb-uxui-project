@@ -53,12 +53,14 @@ img {
 a {
 	color: white;
 	height: fit-content;
+	text-decoration: Menu;
 }
 
 html,body {
-
+	font-family: system-ui;
 }
 
+/*Mobile Styles*/
 .mobile-header {
 	background: black;
 	position: fixed;
@@ -112,17 +114,47 @@ html,body {
 	color: white;
 }
 
+/*Web Styles*/
+#web-landing-page {
+	background-image: url("./images/homeimage.png");
+}
 
-.web-header {
+.web-page {
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	top: 0;
+}
+
+.web-menu {
 	display: flex;
 	justify-content: space-evenly;
+	align-items: flex-end;
+	padding: 6.5rem 27.5rem 0;
 	background: black;
 }
 
+.web-menu-logo {
+	position: absolute;
+	padding-bottom: 2.4rem;
+}
 
-.web-header-link {
+.web-menu-link {
 	background: #cc3030;
-	padding: 0.5rem;
+	padding: 0.8rem 3.2rem;
+	font-size: 2rem;
+}
+
+.web-header {
+	position: static;
+	display: flex;
+	justify-content: center;
+	margin-top: 8rem;
+	padding: 1rem 0;
+	font-size: 2.5rem;
+	font-style: italic;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
 }
 
 .img-overlay {
