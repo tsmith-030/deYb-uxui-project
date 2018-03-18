@@ -134,6 +134,14 @@ td {
 	background-image: url("./images/web/web-swipepage.png");
 }
 
+#web-favorites-page {
+	background-image: url("./images/web/web-favoritespage.png");
+}
+
+#web-onadventure-page {
+	background-image: url("./images/web/web-onadventurepage.png");
+}
+
 .web-page {
 	width: 100vw;
 	height: 100vh;
@@ -193,10 +201,29 @@ td {
 	justify-content: center;
 	margin-top: 2rem;
 	padding: 1rem 0;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-style: italic;
 	background-color: rgba(0, 0, 0, 0.75);
 	color: white;
+}
+
+#web-swipe-description {
+	margin-top: 18rem;
+}
+
+.web-text-content {
+	width: fit-content;
+	text-align: center;
+	left: 45vw;
+	padding: 0 3rem;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.75);
+	font-size: 2rem;
+	color: white;
+}
+
+#web-swipe-btn {
+	margin-top: 2rem;
 }
 
 .img-overlay {
@@ -212,7 +239,7 @@ td {
 	display: flex;
 	justify-content: center;
 	position: fixed;
-	bottom: 5%;
+	bottom: 2%;
 	margin: auto;
 	left: 43vw;
 }
