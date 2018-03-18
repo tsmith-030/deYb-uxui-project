@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+
+    <!--Don't forget to fill these out!-->
+    <title>de Ybarrondo Project 1</title>
+    <meta name="description" content="Interactive website design P1"/>
+
+
+    <!--Links to the main Style Sheet-->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+    <!--Links to a modernizer JavaScript file that fixes a lot of issues with old browsers-->
+    <script src="js/modernizr.js"></script>
+
+    <!--Makes the site so it won't scale down on small devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+        body {
+            background-image: url("./images/homeimage.png");
+        }
+    </style>
+</head>
+
+<body>
+<div class="mobile-header">
+    <img src="./images/mobile-header-logo.png"/>
+    <a href="#" onclick="toggle_visibility('menu');">
+        <nav class="menu_button nodesk">
+            <img class="hamburger" src="./images/hamburger.png"/>
+        </nav>
+    </a>
+
+</div>
+<nav id="menu" class="hamburger-menu">
+    <ul>
+        <a href="#">
+            <li>Home</li>
+        </a>
+        <a href="#">
+            <li>About</li>
+        </a>
+        <a href="#">
+            <li>Contact</li>
+        </a>
+        <a href="#">
+            <li>Login</li>
+        </a>
+    </ul>
+</nav>
+<p class="mobile-app-title">Begin New Orleans Adventure</p>
+<!-- Place this script at the end of your body -->
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+    //-->
+</script>
+
+</body>
+</html>

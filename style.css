@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Meyer Reset CSS */
+
+img {
+	max-width: 100%; /*makes images scale with flexible grids*/
+	display: block; /*removes tiny space added in some browsers below images */
+	padding: 0.5rem;
+}
+
+a {
+	color: white;
+}
+
+html,body {
+
+}
+
+.mobile-header {
+	background: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mobile-app {
+	background-image: url("./images/homeimage.png");
+}
+
+.mobile-background-image {
+	height: auto;
+	width: auto;
+	position: absolute;
+	z-index: -10;
+}
+
+.mobile-app-title {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	font-size: 1.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.hamburger-menu {
+	float: right;
+	padding: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
+
+.web-header {
+	display: flex;
+	justify-content: space-evenly;
+	background: black;
+}
+
+
+.web-header-link {
+	background: #cc3030;
+	padding: 0.5rem;
+}
+
+.img-overlay {
+	z-index: 10;
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: auto;
+	height: 100%;
+}
+
+
+
+
+
+
