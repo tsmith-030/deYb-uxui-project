@@ -166,6 +166,8 @@ td {
 	border-radius: 18px;
 	display: flex;
 	justify-content: center;
+	left: 40vw;
+	margin: auto;
 	margin-top: 1rem;
 	padding: 1rem;
 	font-size: 2rem;
@@ -204,6 +206,15 @@ td {
 	position: absolute;
 	width: auto;
 	height: 100%;
+}
+
+.web-footer {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 5%;
+	margin: auto;
+	left: 43vw;
 }
 
 
