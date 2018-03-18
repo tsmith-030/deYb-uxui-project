@@ -18,48 +18,53 @@
     <!--Makes the site so it won't scale down on small devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <style>
-        body {
-            background-image: url("./images/homeimage.png");
-        }
+        /*body {*/
+            /*background-image: url("./images/homeimage.png");*/
+        /*}*/
     </style>
 </head>
 
 <body>
 <div class="mobile-header">
     <img src="./images/mobile-header-logo.png"/>
-    <a href="#" onclick="toggle_visibility('menu');">
+    <a onclick="toggle_visibility('menu');">
         <nav class="menu_button nodesk">
             <img class="hamburger" src="./images/hamburger.png"/>
         </nav>
     </a>
-
+    <nav id="menu" class="hamburger-menu">
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>About</li>
+            </a>
+            <a href="#">
+                <li>Contact</li>
+            </a>
+            <a href="#">
+                <li>Login</li>
+            </a>
+        </ul>
+    </nav>
 </div>
-<nav id="menu" class="hamburger-menu">
-    <ul>
-        <a href="#">
-            <li>Home</li>
-        </a>
-        <a href="#">
-            <li>About</li>
-        </a>
-        <a href="#">
-            <li>Contact</li>
-        </a>
-        <a href="#">
-            <li>Login</li>
-        </a>
-    </ul>
-</nav>
-<p class="mobile-app-title">Begin New Orleans Adventure</p>
+<div id="mobile-landing-page" class="mobile-app-page">
+    <p class="mobile-app-title">Begin New Orleans Adventure</p>
+</div>
+<div id="mobile-preferences-page" class="mobile-app-page">
+    <h1>Preferences</h1>
+</div>
 <!-- Place this script at the end of your body -->
 <script type="text/javascript">
     <!--
     function toggle_visibility(id) {
+
         var e = document.getElementById(id);
-        if (e.style.display == 'block')
-            e.style.display = 'none';
-        else
+        if (e.style.display == 'none')
             e.style.display = 'block';
+        else
+            e.style.display = 'none';
     }
     //-->
 </script>
