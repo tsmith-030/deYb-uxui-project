@@ -313,6 +313,28 @@ td {
 	color: white;
 }
 
+.web-header-2 {
+	position: static;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+	padding: 1rem 0;
+	font-size: 5rem;
+	font-weight: bold;
+	color: black;
+}
+
+.mobile-table-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2.5rem;
+	padding-bottom: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	font-size: 2rem;
+}
+
 .web-table-header {
 	position: static;
 	display: flex;
