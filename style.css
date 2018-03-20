@@ -193,7 +193,7 @@ td {
 	background-color: rgba(0, 0, 0, 0.75);
 	color: white;
 	font-size: 1rem;
-	width: 100vw;
+	width: 95.5vw;
 }
 
 .mobile-adventure-table-wrapper-edit {
@@ -235,6 +235,12 @@ td {
 .mobile-table-header {
 	padding-top: 1rem;
 	font-size: 1rem;
+}
+
+.mobile-footer {
+	display: flex;
+	justify-content: center;
+	background: black;
 }
 
 /*Web Styles*/
